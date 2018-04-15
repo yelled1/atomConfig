@@ -1,0 +1,37 @@
+{
+    "window.zoomLevel": 1, //-1 makes small
+    "editor.fontSize": 11,
+    "terminal.integrated.fontSize": 11,
+    "macros": {
+        "execCurLnPy": [
+            "expandLineSelection",
+            "python.execSelectionInTerminal",
+            "workbench.action.terminal.scrollToBottom",
+            "cancelSelection"
+        ],
+        "execCurSelPy": [
+            // "cursorDown",
+            //"expandLineSelection",
+            "python.execSelectionInTerminal",
+            "workbench.action.terminal.scrollToBottom",
+            "cancelSelection",
+        ],
+
+         "execCurLn": [
+            "expandLineSelection",
+            "workbench.action.terminal.runSelectedText",
+            "workbench.action.terminal.scrollToBottom",
+            "cancelSelection"
+        ],
+        "execCurSel": [
+            "workbench.action.terminal.runSelectedText",
+            "workbench.action.terminal.scrollToBottom",
+            "cancelSelection",
+        ],
+    },
+    "julia.executablePath": "/opt/julia/bin/julia",
+    "python.pythonPath": "/opt/miniconda3/envs/SPk/bin/python",
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4  }
+}

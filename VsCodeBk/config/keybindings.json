@@ -1,0 +1,25 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+shift+-", "command": "undo", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+z", "command": "-undo", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+x", "command": "-editor.action.clipboardCutAction"},
+    //  "when": "editorTextFocus || terminalFocus" }
+    { "key": "ctrl+x o", "command": "workbench.action.terminal.focus", "when": "editorTextFocus" },
+    { "key": "ctrl+x", "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus"},
+    { "key": "ctrl+P", "command": "Up", "when": "terminalFocus"},
+    { "key": "ctrl+F", "command": "Forward", "when": "terminalFocus"},
+    { "key": "ctrl+E", "command": "End", "when": "terminalFocus"},
+
+    { "key": "ctrl+\\", "command": "workbench.action.toggleSidebarVisibility" },
+    { "key": "ctrl+enter", "command": "-editor.action.insertLineAfter", "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+enter", "command": "macros.execCurSelPy", "when": "editorTextFocus && editorHasSelection && editorLangId == 'python'" },
+    { "key": "ctrl+enter", "command": "macros.execCurLnPy", "when": "editorTextFocus && !editorHasSelection && editorLangId == 'python'" },
+
+    { "key": "ctrl+enter", "command": "macros.execCurSel", "when": "editorTextFocus && editorHasSelection && editorLangId != 'python'"},
+    { "key": "ctrl+enter", "command": "macros.execCurLn", "when": "editorTextFocus && !editorHasSelection && editorLangId != 'python'"}
+  ]
+/*
+  { "key": "meta+left",             "command": "extension.vim_cmd+left", 
+  "when": "editorTextFocus && vim.active && vim.use<D-left> && !inDebugRepl && vim.mode != 'Insert'" },
+  { "key": "ctrl+enter", "command": "python.execSelectionInTerminal", "when": "editorTextFocus && editorHasSelection" },
+*/
