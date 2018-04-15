@@ -1,0 +1,42 @@
+"*":
+  Ensime:
+    sbtExec: "/usr/bin/sbt"
+  Hydrogen:
+    startDir: "dirOfFile"
+  "autocomplete-plus":
+    confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  core:
+    disabledPackages: [
+      "language-scala-plus"
+      "teletype"
+      "bracket-matcher"
+      "linter-flake8"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 12
+    scrollPastEnd: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "c4e6b137-ceb7-45b2-9829-7e7dbe93d5c1"
+  "julia-client":
+    firstBoot: false
+  "linter-ui-default":
+    showPanel: true
+  minimap: {}
+  "tool-bar":
+    position: "Left"
+  "uber-juno":
+    disable: true
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    tabLength: 4
+".editorconfig.source":
+  editor:
+    tabType: "soft"
+".python.source":
+  editor:
+    tabType: "soft"
