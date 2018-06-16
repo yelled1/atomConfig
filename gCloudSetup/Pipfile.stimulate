@@ -1,0 +1,47 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6.5"
+
+[packages]
+pandas = "*"
+numpy = "*"
+scipy = "*"
+sklearn = "*"
+scikit-learn = "*"
+sqlalchemy = "*"
+peewee = "*"
+python-dotenv = "*"
+tqdm = "*"
+cloudpickle = "*"
+argparse = "*"
+"psycopg2-binary" = "*"
+dedupe = "*"
+"jinja2" = "*"
+
+[dev-packages]
+jupyter = "*"
+jupyterlab = "*"
+jupyter_kernel_gateway = "*"
+jupyter-contrib-nbextensions = "*"
+matplotlib = "*"
+seaborn = "*"
+missingno = "*"
+pylint = "*"
+"autopep8" = "*"
+plotly = "*"
+dask = "*"
+toolz = "*"
+geotext = "*"
+pudb = "*"
+neovim = "*"
+pytest = "*"
+
+[scripts]
+lint = "pylint --rcfile=../.pylintrc production"
+lint-fix = "autopep8 --in-place --aggressive --aggressive --recursive production ../schema"
+curator = "python production/curator.py"
+test = "pytest"

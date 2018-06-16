@@ -2,15 +2,34 @@
   Ensime:
     sbtExec: "/usr/bin/sbt"
   Hydrogen:
+    gateways: '''
+      [{
+        "name": "RemoteServer",
+        "options": {
+          "baseUrl": "http://datasci.mooo.com:8999", 
+          "token": "ds_arthena_001"
+        }
+      }]
+    '''
     startDir: "dirOfFile"
   "autocomplete-plus":
     confirmCompletion: "tab always, enter when suggestion explicitly selected"
+  "autocomplete-python":
+    useKite: false
   core:
     disabledPackages: [
       "language-scala-plus"
       "teletype"
       "bracket-matcher"
       "linter-flake8"
+      "Ensime"
+      "language-scala"
+      "remote-sync-pro"
+      "sbt"
+      "julia-client"
+      "language-julia"
+      "uber-juno"
+      "autocomplete-python"
     ]
     telemetryConsent: "limited"
   editor:
@@ -21,9 +40,10 @@
     userId: "c4e6b137-ceb7-45b2-9829-7e7dbe93d5c1"
   "julia-client":
     firstBoot: false
-  "linter-ui-default":
-    showPanel: true
-  minimap: {}
+  "linter-ui-default": {}
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
   "tool-bar":
     position: "Left"
   "uber-juno":

@@ -1,0 +1,14 @@
+  Encountered ImportError loading plugin at /home/hoon/.local/share/nvim/site/plugged/deoplete.nvim/rpl
+ugin/python3/deoplete: No module named 'deoplete.parent'
+Traceback (most recent call last):
+  File "/home/hoon/.local/lib/python3.5/site-packages/neovim/plugin/host.py", line 130, in _load
+    module = imp.load_module(name, file, pathname, descr)
+  File "/usr/lib/python3.5/imp.py", line 244, in load_module
+    return load_package(name, filename)
+  File "/usr/lib/python3.5/imp.py", line 216, in load_package
+    return _load(spec)
+  File "<frozen importlib._bootstrap>", line 693, in _load
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+ImportError: No module named 'deoplete.parent'
+remote/host: python3 host registered plugins ['LanguageClient']
+remote/host: generated rplugin manifest: /home/hoon/.local/share/nvim/rplugin.vim

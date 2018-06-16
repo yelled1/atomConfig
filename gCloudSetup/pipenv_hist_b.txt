@@ -1,0 +1,270 @@
+  920  pipenv shell
+  921  history | grep pipenv install
+  922  history | grep pipenv
+hoon@sunghoon-dev:~/Prj/analytics/simulations$  
+pipenv --python 3.6.5
+pipenv install ipykernel 
+Installing ipykernel…
+
+(simulations-yPnofnLH) hoon@sunghoon-dev:~/Prj/analytics/simulations$ 
+pipenv install jupyter_kernel_gateway
+Installing jupyter_kernel_gateway…
+
+
+
+  393  pipenv install
+  394  pip install pipenv 
+  395  pip3 install pipenv 
+  396  sudo apt install pip3
+  397  sudo apt install python3-pip 
+  398  pip3 install pipenv 
+  399  pipenv install
+  400  h
+  401  history
+  402  ls
+  403  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  404  ls
+  405  vi Dockerfile 
+  406  vi docker-compose.yml 
+  407  ls
+  408  cd Prj/
+  409  ls
+  410  cd analytics/simulations/
+  411  ls
+  412  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  413  pwd
+  414  vi Dockerfile 
+  415  ls
+  416  cd ..
+  417  ls
+  418  mkdir hydro_dockr_test
+  419  cd hydro_dockr_test/
+  420  ls
+  421  vi Dockerfile
+  422  docker build -t hydro-kernel-gateway .
+  423  docker stop $(docker ps -a -q)
+  424  docker rm $(docker ps -a -q)
+  425  docker ps -a -q
+  426  docker run -it --rm --name hydro-kernel-gateway -p 8888:8888 hydro-kernel-gateway
+  427  vi docker-compose.yml
+  428  docker-compose up -d
+    1  ls -ltr
+    2  ls
+    3  cd Prj/
+    4  l;s
+    5  ls
+    6  vi dot_env
+    7  ls
+    8  cd Prj/
+    9  ls
+   10  ssh-keygen -t rsa
+   11  ls
+   12  vi ~/.ssh/
+   13  git clone git@github.com:arthena/analytics.git
+   14  ls -ltr
+   15  cd analytics/
+   16  ls
+   17  ls -ltr
+   18  mkdir simulations
+   19  mkdir simulations/warehousing
+   20  ls -ltr
+   21  ls -a
+   22  vi .env
+   23  cd simulations/
+   24  ls
+   25  cp ~/Prj/dot_env .env
+   26  vi .env
+   27  ls -ltr
+   28  ls
+   29  cd ..
+   30  ls
+   31  git clone git@github.com:arthena/curator.git
+   32  ls
+   33  cd curator/
+   34  ls
+   35  ls -ltr
+   36  cat entrypoint.sh 
+   37  ls
+   38  docker
+   39  sudo apt-get remove docker docker-engine docker.io
+   40  sudo apt-get update
+   41  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   42  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   43  sudo apt-key fingerprint 0EBFCD88
+   44  ls -la /etc/apt
+   45  vi /etc/apt/sources.list
+   46  sudo apt-get update
+   47  sudo apt-get install docker-ce
+   48  sudo docker run hello-world
+   49  ls -ltr
+   50  vi README.md 
+  429  docker ps -a -q
+  430  docker stop $(docker ps -a -q)
+  431  docker me  $(docker ps -a -q)
+  432  docker rm $(docker ps -a -q)
+  433  docker-compose build
+  434  docker-compose up -d
+  435  docker-compose ps
+  436  history > h0.txt
+  437  vi h0.txt 
+  438  cd Prj/analytics/simulations/warehousing/
+  439  pwd
+  440  ls -ltr
+  441  ls
+  442  ls -ltr
+  443  ls warehousing/
+  444  cd ..
+  445  ls
+  446  vi .re
+  447  ls -
+  448  ls -a
+  449  ls warehousing/
+  450  ls -a warehousing/
+  451  cd warehousing/
+  452  ls
+  453  rm -rf warehousing/
+  454  ls
+  455  ls  -ltr
+  456  ls
+  457  ls queries/
+  458  ls -ltr
+  459  ls
+  460  sudo -u postgres psql
+  461  ls
+  462  docker ps
+  463  cd Prj
+  464  ls
+  465  ls analytics/schema
+  466  ls
+  467  cat docker-compose.yml 
+  468  ls analytics/
+  469  ls analytics/analytics/
+  470  ls analytics/analytics/development/
+  471  ls analytics/analytics/development/Dockerfile 
+  472  cat analytics/analytics/development/Dockerfile 
+  473  more analytics/analytics/development/Dockerfile 
+  474  more analytics/analytics/development/entrypoint.sh 
+  475  more analytics/analytics/development/*.yml
+  476  more analytics/analytics/development/
+  477  ls analytics/analytics/development/
+  478  cd Prj/
+  479  ls
+  480  cd analytics/
+  481  ls
+  482  cd hydro_dockr_test/
+  483  ls
+  484  vi docker-compose.yml 
+  485  diff docker-compose.yml ../simulations/docker-compose.yml 
+  486  ls
+  487  cat Dockerfile 
+  488  cd Prj
+  489  ls
+  490  cp Dockerfile ~/Prj/
+  491  cp docker-compose.yml ~/Prj/
+  492  ls
+  493  ls
+  494  ls -ltr
+  495  docker build -t hydro
+  496  docker build -t hydro .
+  497  docker stop $(docker ps -a -q)
+  498  docker rm $(docker ps -a -q)
+  499  docker-compose up -d --add-host=database:10.128.0.12 
+  500  docker-compose ps
+  501  docker-compose up -d
+  502  docker-compose ps
+  503  docker ps -a -q
+  504  docker exec -it prj_hydro-kernel-gateway_1 bash
+  505  ls
+  506  ls -ltr
+  507  cd Prj/
+  508  ls
+  509  cd analytics/
+  510  ls
+  511  cd analytics/
+  512  cd development/
+  513  ls
+  514  cd ..
+  515  cd production/
+  516  ls
+  517  vi *.py
+  518  docker exec -it simulations_web_run_1 bash
+  519  ls
+  520  cd 
+  521  cd Prj/analytics/simulations/
+  522  ls
+  523  pipenv install ipykernel --system
+  524  pipenv install ipykernel 
+  525  ls -ltr
+  526  docker ps
+  527  docker stop $(docker ps -a -q)
+  528  docker rm $(docker ps -a -q)
+  529  ls
+  530  docker stop $(docker ps -a -q)
+  531  ls -ltr
+  532  cd Prj/
+  533  ls
+  534  sl -ltr
+  535  cd analytics/
+  536  ls
+  537  cd simulations/
+  538  ls
+  539  find . -name "*.yml"
+  540  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  541  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  542  ls
+  543  cd Prj/
+  544  ls
+  545  cd analytics/analytics/development/
+  546  ls
+  547  vi Dockerfile 
+  548  grep schema *
+  549  grep schema */*
+  550  cd ..
+  551  ls
+  552  cd production/
+  553  ls
+  554  vi README.md 
+  555  cd ..
+  556  ls
+  557  cd ..
+  558  ls
+  559  cd simulations/
+  560  ls
+  561  vi entrypoint.sh 
+  562  ls
+  563  vi Dockerfile 
+  564  vi docker-compose.yml 
+  565  vi Dockerfile 
+  566  ls -ltr
+  567  pip install ipykernel
+  568  ls
+  569  cd Prj/
+  570  ls
+  571  ls
+  572  cd cd simulations/
+  573  ls
+  574  cd simulations/
+  575  ls
+  576  ln -fs ../schema/ .
+  577  ls -ltr
+  578  vi entrypoint.sh 
+  579  ls
+  580  vi entrypoint.sh 
+  581  ls
+  582  vi ~/Prj/Dockerfile 
+  583  ls
+  584  s 
+  585  docker stop $(docker ps -a -q)
+  586  ls -ltr
+
+  587  pipenv shell
+  588  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  589  python -m ipykernel install --user --name=simulations-yPnofnLH
+  590  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  591  pipenv install  kernelgateway
+  592  pipenv install kernelgateway
+  593  pipenv install jupyter_kernel_gateway
+  594  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  595  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  596  history
+  597  history > pipenv_hist.txt

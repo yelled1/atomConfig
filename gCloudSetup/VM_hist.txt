@@ -1,0 +1,398 @@
+    3  cd Prj/
+    6  vi dot_env
+    8  cd Prj/
+   10  ssh-keygen -t rsa
+   12  vi ~/.ssh/
+   13  git clone git@github.com:arthena/analytics.git
+   15  cd analytics/
+   18  mkdir simulations
+   19  mkdir simulations/warehousing
+   22  vi .env
+   23  cd simulations/
+   25  cp ~/Prj/dot_env .env
+   26  vi .env
+   29  cd ..
+   31  git clone git@github.com:arthena/curator.git
+   33  cd curator/
+   36  cat entrypoint.sh 
+   38  docker
+   39  sudo apt-get remove docker docker-engine docker.io
+   40  sudo apt-get update
+   41  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+   42  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   43  sudo apt-key fingerprint 0EBFCD88
+   45  vi /etc/apt/sources.list
+   46  sudo apt-get update
+   47  sudo apt-get install docker-ce
+   48  sudo docker run hello-world
+   50  vi README.md 
+   51  sudo apt-get install postgresql postgresql-contrib
+   52  sudo -i -u postgres
+   53  exit
+   55  sudo apt install htop
+   56  htop
+   58  htop
+   59  top
+   62  pwd
+   65  cd /opt/
+   68  cd
+   70  mkdir Prj
+   72  cd Prj/
+   74  git clone git@github.com:arthena/analytics.git
+   75  cd
+   79  cd .ssh
+   82  cat authorized_keys 
+   85  psql
+   86  sudo -i -u postgres
+   87  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ xenial-pgdg main" >> /etc/apt/sources.list.d/postgresql.list'
+   89  aptuu
+   90  sudo apt update
+   91  apt list --upgradable
+   92  sudo apt upgrade
+   93  psql
+   95  sudo apt-get purge postgresql postgresql-contrib
+   96  reboot
+   98  sudo shutdown -r now
+  100  sudo apt-get purge postgresql postgresql-contrib
+  101  sudo apt-get install postgresql postgresql-contrib
+  102  psql
+  103  sudo -i -u postgres
+  106  rm -rf /etc/postgresql
+  107  sudo rm -rf /etc/postgresql
+  110  sudo apt-get install postgresql postgresql-contrib
+  111  sudo -i -u postgres
+  112  sudo shutdown -r now
+  113  sudo -i -u postgres
+  114  sudo apt-get -reinstall postgresql postgresql-contrib
+  115  sudo apt-get --reinstall postgresql postgresql-contrib
+  116  sudo apt-get install --reinstall postgresql postgresql-contrib
+  117  sudo -u postgres psql
+  118  ps auxw | grep post
+  119  sudo find / -name .s.PGSQL.5432 -ls
+  120  cat /usr/local/var/postgres/server.log
+  121  cd /usr/local/
+  122  find . -name "postmaster.pid"
+  123  cd var/postgres
+  125  cd var
+  127  cd /
+  129  find . -name "postmaster.pid"
+  130  sudo find . -name "postmaster.pid"
+  131  sudo find . -name "server.log"
+  132  sudo -u postgres psql
+  133  cd /etc
+  137  sudo apt-get purge postgresql postgresql-contrib
+  143  rm -rf postgresql-common/
+  144  sudo rm -rf postgresql-common/
+  146  sudo apt-get purge postgresql postgresql-contrib
+  147  sudo apt-get remove postgresql postgresql-contrib
+  148  cd
+  151  sudo find . -name "postg*"
+  152  reboto
+  153  sudo shutdown -r now
+  155  sudo apt-get install --reinstall  postgresql postgresql-contrib
+  156  sudo -u postgres psql
+  157  sudo -u postgres psql
+  158  sudo apget install -f
+  159  sudo apt-get install -f
+  160  sudo apt-get install --reinstall  postgresql postgresql-contrib
+  161  sudo -u postgres psql
+  162  sudo apt-get purge postgresql postgresql-contrib
+  163  dpkg --purge --force-depends postgresql
+  164  sudo dpkg --purge --force-depends postgresql
+  165  sudo apt-get autoremove
+  166  sudo apt-get -f install
+  167  dpkg -l
+  168  dpkg -l| grep post
+  169  dpkg -l| grep post
+  170  dpkg -l| grep postg
+  171  dpkg -l| grep postgres
+  172  sudo apt-get -f install
+  173  sudo apt autoremove
+  174  dpkg -l| grep postgres
+  175  sudo apt-get install --reinstall  postgresql postgresql-contrib
+  176  sudo -u postgres psql
+  177  cd /etc/
+  179  cd postgresql
+  181  cd 10/
+  183  cd main/
+  185  mv postgresql.conf postgresql_orig.conf 
+  186  sudo mv postgresql.conf postgresql_orig.conf 
+  187  sudo mv pg_hba.conf  pg_hba_orig.conf 
+  191  sudo cp -ip ~/Prj/*.conf .
+  193  sudo chown postgres:postgres postgresql.conf 
+  194  sudo chown postgres:postgres pg_hba.conf 
+  196  ifconfig
+  198  cd
+  200  cd Prj
+  201  cd curator/
+  204  find . -name ".env"
+  206  cp ~/Prj/dot_env .env
+  207  vi .env 
+  208  ifconfig
+  209  vi .env 
+  211  gvim
+  213  gedit
+  214  sudo apt install vim
+  215  sudo apt install vim-tiny
+  216  gvim
+  217  nano
+  218  fg
+  220  cat README.md 
+  221  cat README.md  mroe
+  222  more README.md 
+  223  docker-compose run --service-ports web
+  224  sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+  225  sudo chmod +x /usr/local/bin/docker-compose
+  226  $ docker-compose --version
+  227  docker-compose --version
+  228  docker-compose run --service-ports web
+  230  docker run hello-world
+  231  exit
+  232  sudo crontab -e
+  233  crontab -e
+  234  sudo crontab -e
+  237  crontab -l
+  238  sudo crontab -l
+  239  sudo crontab -e
+  240  https://freedns.afraid.org/dynamic/update.php?bXJzaXN4YjUyUHJIZzViMzZwWkRuRTdGOjE3NTQ4MDk3
+  241  sudo crontab -e
+  242  sudo crontab -l
+  244  sudo crontab -l
+  245  wget --no-check-certificate -O - https://freedns.afraid.org/dynamic/update.php?bXJzaXN4YjUyUHJIZzViMzZwWkRuRTdGOjE3NTQ4MDk3 
+  246  sudo crontab -e
+  247  docker run hello-world
+  248  cd Prj/curator/
+  249  docker-compose run --service-ports web
+  250  sudo docker version
+  251  sudo docker run -p 8888:8888 -it  continuumio/anaconda3
+  252  cd ..
+  253  mkdir test
+  254  cd test
+  255  sudo docker run -p 8888:8888 -it  continuumio/anaconda3
+  257  docker ps
+  258  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+  259  docker inspect -f a5f8adaa1b91
+  260  docker inspect a5f8adaa1b91
+  261  ifconfig
+  263  firefox
+  264  sudo apt install firefox
+  265  sudo apt install midori
+  266  sudo apt install chromium
+  267  sudo apt install chromium-bsu
+  268  chromium
+  269  chromium-bsu 
+  271  ps
+  272  bs
+  273  ps
+  274  ps -es
+  275  ps -df
+  276  ps -ef
+  277  ps -ef| grep chrom
+  278  sudo apt purhge chromium-bsu
+  279  sudo apt purge chromium-bsu
+  280  sudo apt autoremove
+  281  dpkg -l | grep -i chrome
+  282  dpkg -l | grep -i chrom
+  283  cd curator
+  285  cd Prj/curator/
+  287  docker-compose run --service-ports web
+  288  sudo docker ps 
+  290  cd Prj/curator/
+  292  j
+  293  docker ps
+  294  docker stop $(docker ps -a -q)
+  295  docker rm $(docker ps -a -q)
+  296  docker ps -a -q
+  297  docker ps
+  298  sudo -u postgres psql
+  299  cd Prj/analytics/
+  301  cd schema/
+  303  vi database.py 
+  304  docker ps -a -q
+  305  cd Prj/curator/
+  307  docker-compose run --service-ports web
+  309  cd Prj/
+  311  cd curator/
+  313  cd ..
+  314  cd analytics/
+  316  cd schema/
+  318  cd ..
+  319  cd curator/
+  321  cd modelsDir/
+  323  python database.py 
+  324  python
+  325  cd ..
+  327  docker-compose run --service-ports web --add-host=database:192.168.86.43
+  328  if config
+  329  ifconfig
+  331  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  332  cd Prj/analytics/
+  334  cd analytics/
+  337  cd ..
+  339  git pull
+  341  vi README.md 
+  344  cd curator/
+  346  cp Pipfile ../simulations/
+  347  cp entrypoint.sh ../simulations/
+  348  cp Dockerfile ../simulations/
+  350  cd ..
+  351  cd simulations/
+  353  cp ../curator/README.md .
+  354  vi README.md 
+  356  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  357  cp ../curator/docker-compose.yml .
+  358  vi docker-compose.yml 
+  359  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  360  docker ps -a -q
+  361  docker stop $(docker ps -a -q)
+  362  docker rm $(docker ps -a -q)
+  363  docker ps -a -q
+  364  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  365  docker ps -a -q
+  366  docker stop $(docker ps -a -q)
+  367  docker rm $(docker ps -a -q)
+  368  docker ps -a -q
+  369  reboot
+  370  shutdown -r now
+  371  sudo shutdown -r now
+  372  cd Prj/analytics/simulations/
+  375  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  377  vi *
+  378  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  379  ifconfig
+  380  docker ps -a -q
+  381  docker stop $(docker ps -a -q)
+  382  docker rm $(docker ps -a -q)
+  384  cp ~/Prj/curator/docker-compose.yml .
+  385  cp ~/Prj/curator/Dockerfile .
+  386  cp ~/Prj/curator/Pipfile .
+  387  cp ~/Prj/curator/entrypoint.sh .
+  388  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  389  docker stop $(docker ps -a -q)
+  390  docker rm  $(docker ps -a -q)
+  392  vi Dockerfile 
+  393  pipenv install
+  394  pip install pipenv 
+  395  pip3 install pipenv 
+  396  sudo apt install pip3
+  397  sudo apt install python3-pip 
+  398  pip3 install pipenv 
+  399  pipenv install
+  400  h
+  401  history
+  403  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  405  vi Dockerfile 
+  406  vi docker-compose.yml 
+  408  cd Prj/
+  410  cd analytics/simulations/
+  412  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  413  pwd
+  414  vi Dockerfile 
+  416  cd ..
+  418  mkdir hydro_dockr_test
+  419  cd hydro_dockr_test/
+  421  vi Dockerfile
+  422  docker build -t hydro-kernel-gateway .
+  423  docker stop $(docker ps -a -q)
+  424  docker rm $(docker ps -a -q)
+  425  docker ps -a -q
+  426  docker run -it --rm --name hydro-kernel-gateway -p 8888:8888 hydro-kernel-gateway
+  427  vi docker-compose.yml
+  428  docker-compose up -d
+  429  docker ps -a -q
+  430  docker stop $(docker ps -a -q)
+  431  docker me  $(docker ps -a -q)
+  432  docker rm $(docker ps -a -q)
+  433  docker-compose build
+  434  docker-compose up -d
+  435  docker-compose ps
+  436  history > h0.txt
+  437  vi h0.txt 
+  438  cd Prj/analytics/simulations/warehousing/
+  439  pwd
+  444  cd ..
+  446  vi .re
+  451  cd warehousing/
+  453  rm -rf warehousing/
+  460  sudo -u postgres psql
+  462  docker ps
+  463  cd Prj
+  467  cat docker-compose.yml 
+  472  cat analytics/analytics/development/Dockerfile 
+  473  more analytics/analytics/development/Dockerfile 
+  474  more analytics/analytics/development/entrypoint.sh 
+  475  more analytics/analytics/development/*.yml
+  476  more analytics/analytics/development/
+  478  cd Prj/
+  480  cd analytics/
+  482  cd hydro_dockr_test/
+  484  vi docker-compose.yml 
+  485  diff docker-compose.yml ../simulations/docker-compose.yml 
+  487  cat Dockerfile 
+  488  cd Prj
+  490  cp Dockerfile ~/Prj/
+  491  cp docker-compose.yml ~/Prj/
+  495  docker build -t hydro
+  496  docker build -t hydro .
+  497  docker stop $(docker ps -a -q)
+  498  docker rm $(docker ps -a -q)
+  499  docker-compose up -d --add-host=database:10.128.0.12 
+  500  docker-compose ps
+  501  docker-compose up -d
+  502  docker-compose ps
+  503  docker ps -a -q
+  504  docker exec -it prj_hydro-kernel-gateway_1 bash
+  507  cd Prj/
+  509  cd analytics/
+  511  cd analytics/
+  512  cd development/
+  514  cd ..
+  515  cd production/
+  517  vi *.py
+  518  docker exec -it simulations_web_run_1 bash
+  520  cd 
+  521  cd Prj/analytics/simulations/
+  523  pipenv install ipykernel --system
+  524  pipenv install ipykernel 
+  526  docker ps
+  527  docker stop $(docker ps -a -q)
+  528  docker rm $(docker ps -a -q)
+  530  docker stop $(docker ps -a -q)
+  532  cd Prj/
+  534  sl -ltr
+  535  cd analytics/
+  537  cd simulations/
+  539  find . -name "*.yml"
+  540  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  541  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  543  cd Prj/
+  545  cd analytics/analytics/development/
+  547  vi Dockerfile 
+  548  grep schema *
+  549  grep schema */*
+  550  cd ..
+  552  cd production/
+  554  vi README.md 
+  555  cd ..
+  557  cd ..
+  559  cd simulations/
+  561  vi entrypoint.sh 
+  563  vi Dockerfile 
+  564  vi docker-compose.yml 
+  565  vi Dockerfile 
+  567  pip install ipykernel
+  569  cd Prj/
+  572  cd cd simulations/
+  574  cd simulations/
+  576  ln -fs ../schema/ .
+  578  vi entrypoint.sh 
+
+pipenv shell
+  588  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+python -m ipykernel install --user --name=simulations-yPnofnLH
+pipenv install jupyter_kernel_gateway
+jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+cd Prj/analytics/simulations/
+pipenv install tqdm
+
+  597  history > VM_hist.txt

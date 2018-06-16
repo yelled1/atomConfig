@@ -1,0 +1,1000 @@
+  153  sudo shutdown -r now
+  154  ls -ltr
+  155  sudo apt-get install --reinstall  postgresql postgresql-contrib
+  156  sudo -u postgres psql
+  157  sudo -u postgres psql
+  158  sudo apget install -f
+  159  sudo apt-get install -f
+  160  sudo apt-get install --reinstall  postgresql postgresql-contrib
+  161  sudo -u postgres psql
+  162  sudo apt-get purge postgresql postgresql-contrib
+  163  dpkg --purge --force-depends postgresql
+  164  sudo dpkg --purge --force-depends postgresql
+  165  sudo apt-get autoremove
+  166  sudo apt-get -f install
+  167  dpkg -l
+  168  dpkg -l| grep post
+  169  dpkg -l| grep post
+  170  dpkg -l| grep postg
+  171  dpkg -l| grep postgres
+  172  sudo apt-get -f install
+  173  sudo apt autoremove
+  174  dpkg -l| grep postgres
+  175  sudo apt-get install --reinstall  postgresql postgresql-contrib
+  176  sudo -u postgres psql
+  177  cd /etc/
+  178  ls
+  179  cd postgresql
+  180  ls
+  181  cd 10/
+  182  ls
+  183  cd main/
+  184  ls
+  185  mv postgresql.conf postgresql_orig.conf 
+  186  sudo mv postgresql.conf postgresql_orig.conf 
+  187  sudo mv pg_hba.conf  pg_hba_orig.conf 
+  188  sudo ls ~/Prj/*.config
+  189  sudo ls ~/Prj/
+  190  sudo ls ~/Prj/*.conf
+  191  sudo cp -ip ~/Prj/*.conf .
+  192  ls -ltr
+  193  sudo chown postgres:postgres postgresql.conf 
+  194  sudo chown postgres:postgres pg_hba.conf 
+  195  ls -ltr
+  196  ifconfig
+  197  ls -ltr
+  198  cd
+  199  ls
+  200  cd Prj
+  201  cd curator/
+  202  ls
+  203  ls -ltr
+  204  find . -name ".env"
+  205  ls ~/Prj
+  206  cp ~/Prj/dot_env .env
+  207  vi .env 
+  208  ifconfig
+  209  vi .env 
+  210  ls -ltr
+  211  gvim
+  212  ls -ltr
+  213  gedit
+  214  sudo apt install vim
+  215  sudo apt install vim-tiny
+  216  gvim
+  217  nano
+  218  fg
+  219  ls
+  220  cat README.md 
+  221  cat README.md  mroe
+  222  more README.md 
+  223  docker-compose run --service-ports web
+  224  sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+  225  sudo chmod +x /usr/local/bin/docker-compose
+  226  $ docker-compose --version
+  227  docker-compose --version
+  228  docker-compose run --service-ports web
+  229  ls
+  230  docker run hello-world
+  231  exit
+  232  sudo crontab -e
+  233  crontab -e
+  234  sudo crontab -e
+  235  ls -ltr
+  236  ls -ltr /tmp
+  237  crontab -l
+  238  sudo crontab -l
+  239  sudo crontab -e
+  240  https://freedns.afraid.org/dynamic/update.php?bXJzaXN4YjUyUHJIZzViMzZwWkRuRTdGOjE3NTQ4MDk3
+  241  sudo crontab -e
+  242  sudo crontab -l
+  243  ls -lt /tmp
+  244  sudo crontab -l
+  245  wget --no-check-certificate -O - https://freedns.afraid.org/dynamic/update.php?bXJzaXN4YjUyUHJIZzViMzZwWkRuRTdGOjE3NTQ4MDk3 
+  246  sudo crontab -e
+  247  docker run hello-world
+  248  cd Prj/curator/
+  249  docker-compose run --service-ports web
+  250  sudo docker version
+  251  sudo docker run -p 8888:8888 -it  continuumio/anaconda3
+  252  cd ..
+  253  mkdir test
+  254  cd test
+  255  sudo docker run -p 8888:8888 -it  continuumio/anaconda3
+  256  ls
+  257  docker ps
+  258  docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' container_name_or_id
+  259  docker inspect -f a5f8adaa1b91
+  260  docker inspect a5f8adaa1b91
+  261  ifconfig
+  262  ls -ltr
+  263  firefox
+  264  sudo apt install firefox
+  265  sudo apt install midori
+  266  sudo apt install chromium
+  267  sudo apt install chromium-bsu
+  268  chromium
+  269  chromium-bsu 
+  270  ls -ltr
+  271  ps
+  272  bs
+  273  ps
+  274  ps -es
+  275  ps -df
+  276  ps -ef
+  277  ps -ef| grep chrom
+  278  sudo apt purhge chromium-bsu
+  279  sudo apt purge chromium-bsu
+  280  sudo apt autoremove
+  281  dpkg -l | grep -i chrome
+  282  dpkg -l | grep -i chrom
+  283  cd curator
+  284  ls
+  285  cd Prj/curator/
+  286  ls
+  287  docker-compose run --service-ports web
+  288  sudo docker ps 
+  289  ls
+  290  cd Prj/curator/
+  291  ls
+  292  j
+  293  docker ps
+  294  docker stop $(docker ps -a -q)
+  295  docker rm $(docker ps -a -q)
+  296  docker ps -a -q
+  297  docker ps
+  298  sudo -u postgres psql
+  299  cd Prj/analytics/
+  300  ls
+  301  cd schema/
+  302  ls
+  303  vi database.py 
+  304  docker ps -a -q
+  305  cd Prj/curator/
+  306  ls
+  307  docker-compose run --service-ports web
+  308  ls -ltr
+  309  cd Prj/
+  310  ls
+  311  cd curator/
+  312  ls
+  313  cd ..
+  314  cd analytics/
+  315  ls
+  316  cd schema/
+  317  ls
+  318  cd ..
+  319  cd curator/
+  320  ls
+  321  cd modelsDir/
+  322  ls
+  323  python database.py 
+  324  python
+  325  cd ..
+  326  ls
+  327  docker-compose run --service-ports web --add-host=database:192.168.86.43
+  328  if config
+  329  ifconfig
+  330  ls
+  331  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  332  cd Prj/analytics/
+  333  ls -ltr
+  334  cd analytics/
+  335  ls
+  336  ls -ltr
+  337  cd ..
+  338  ls
+  339  git pull
+  340  ls -ltr
+  341  vi README.md 
+  342  ls -ltr
+  343  ls
+  344  cd curator/
+  345  ls
+  346  cp Pipfile ../simulations/
+  347  cp entrypoint.sh ../simulations/
+  348  cp Dockerfile ../simulations/
+  349  ls
+  350  cd ..
+  351  cd simulations/
+  352  ls -ltr
+  353  cp ../curator/README.md .
+  354  vi README.md 
+  355  ls
+  356  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  357  cp ../curator/docker-compose.yml .
+  358  vi docker-compose.yml 
+  359  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  360  docker ps -a -q
+  361  docker stop $(docker ps -a -q)
+  362  docker rm $(docker ps -a -q)
+  363  docker ps -a -q
+  364  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  365  docker ps -a -q
+  366  docker stop $(docker ps -a -q)
+  367  docker rm $(docker ps -a -q)
+  368  docker ps -a -q
+  369  reboot
+  370  shutdown -r now
+  371  sudo shutdown -r now
+  372  cd Prj/analytics/simulations/
+  373  ls
+  374  ls -ltr
+  375  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  376  ls
+  377  vi *
+  378  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  379  ifconfig
+  380  docker ps -a -q
+  381  docker stop $(docker ps -a -q)
+  382  docker rm $(docker ps -a -q)
+  383  ls -ltr
+  384  cp ~/Prj/curator/docker-compose.yml .
+  385  cp ~/Prj/curator/Dockerfile .
+  386  cp ~/Prj/curator/Pipfile .
+  387  cp ~/Prj/curator/entrypoint.sh .
+  388  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  389  docker stop $(docker ps -a -q)
+  390  docker rm  $(docker ps -a -q)
+  391  ls -ltr
+  392  vi Dockerfile 
+  393  pipenv install
+  394  pip install pipenv 
+  395  pip3 install pipenv 
+  396  sudo apt install pip3
+  397  sudo apt install python3-pip 
+  398  pip3 install pipenv 
+  399  pipenv install
+  400  h
+  401  history
+  402  ls
+  403  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  404  ls
+  405  vi Dockerfile 
+  406  vi docker-compose.yml 
+  407  ls
+  408  cd Prj/
+  409  ls
+  410  cd analytics/simulations/
+  411  ls
+  412  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  413  pwd
+  414  vi Dockerfile 
+  415  ls
+  416  cd ..
+  417  ls
+  418  mkdir hydro_dockr_test
+  419  cd hydro_dockr_test/
+  420  ls
+  421  vi Dockerfile
+  422  docker build -t hydro-kernel-gateway .
+  423  docker stop $(docker ps -a -q)
+  424  docker rm $(docker ps -a -q)
+  425  docker ps -a -q
+  426  docker run -it --rm --name hydro-kernel-gateway -p 8888:8888 hydro-kernel-gateway
+  427  vi docker-compose.yml
+  428  docker-compose up -d
+  429  docker ps -a -q
+  430  docker stop $(docker ps -a -q)
+  431  docker me  $(docker ps -a -q)
+  432  docker rm $(docker ps -a -q)
+  433  docker-compose build
+  434  docker-compose up -d
+  435  docker-compose ps
+  436  history > h0.txt
+  437  vi h0.txt 
+  438  cd Prj/analytics/simulations/warehousing/
+  439  pwd
+  440  ls -ltr
+  441  ls
+  442  ls -ltr
+  443  ls warehousing/
+  444  cd ..
+  445  ls
+  446  vi .re
+  447  ls -
+  448  ls -a
+  449  ls warehousing/
+  450  ls -a warehousing/
+  451  cd warehousing/
+  452  ls
+  453  rm -rf warehousing/
+  454  ls
+  455  ls  -ltr
+  456  ls
+  457  ls queries/
+  458  ls -ltr
+  459  ls
+  460  sudo -u postgres psql
+  461  ls
+  462  docker ps
+  463  cd Prj
+  464  ls
+  465  ls analytics/schema
+  466  ls
+  467  cat docker-compose.yml 
+  468  ls analytics/
+  469  ls analytics/analytics/
+  470  ls analytics/analytics/development/
+  471  ls analytics/analytics/development/Dockerfile 
+  472  cat analytics/analytics/development/Dockerfile 
+  473  more analytics/analytics/development/Dockerfile 
+  474  more analytics/analytics/development/entrypoint.sh 
+  475  more analytics/analytics/development/*.yml
+  476  more analytics/analytics/development/
+  477  ls analytics/analytics/development/
+  478  cd Prj/
+  479  ls
+  480  cd analytics/
+  481  ls
+  482  cd hydro_dockr_test/
+  483  ls
+  484  vi docker-compose.yml 
+  485  diff docker-compose.yml ../simulations/docker-compose.yml 
+  486  ls
+  487  cat Dockerfile 
+  488  cd Prj
+  489  ls
+  490  cp Dockerfile ~/Prj/
+  491  cp docker-compose.yml ~/Prj/
+  492  ls
+  493  ls
+  494  ls -ltr
+  495  docker build -t hydro
+  496  docker build -t hydro .
+  497  docker stop $(docker ps -a -q)
+  498  docker rm $(docker ps -a -q)
+  499  docker-compose up -d --add-host=database:10.128.0.12 
+  500  docker-compose ps
+  501  docker-compose up -d
+  502  docker-compose ps
+  503  docker ps -a -q
+  504  docker exec -it prj_hydro-kernel-gateway_1 bash
+  505  ls
+  506  ls -ltr
+  507  cd Prj/
+  508  ls
+  509  cd analytics/
+  510  ls
+  511  cd analytics/
+  512  cd development/
+  513  ls
+  514  cd ..
+  515  cd production/
+  516  ls
+  517  vi *.py
+  518  docker exec -it simulations_web_run_1 bash
+  519  ls
+  520  cd 
+  521  cd Prj/analytics/simulations/
+  522  ls
+  523  pipenv install ipykernel --system
+  524  pipenv install ipykernel 
+  525  ls -ltr
+  526  docker ps
+  527  docker stop $(docker ps -a -q)
+  528  docker rm $(docker ps -a -q)
+  529  ls
+  530  docker stop $(docker ps -a -q)
+  531  ls -ltr
+  532  cd Prj/
+  533  ls
+  534  sl -ltr
+  535  cd analytics/
+  536  ls
+  537  cd simulations/
+  538  ls
+  539  find . -name "*.yml"
+  540  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  541  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  542  ls
+  543  cd Prj/
+  544  ls
+  545  cd analytics/analytics/development/
+  546  ls
+  547  vi Dockerfile 
+  548  grep schema *
+  549  grep schema */*
+  550  cd ..
+  551  ls
+  552  cd production/
+  553  ls
+  554  vi README.md 
+  555  cd ..
+  556  ls
+  557  cd ..
+  558  ls
+  559  cd simulations/
+  560  ls
+  561  vi entrypoint.sh 
+  562  ls
+  563  vi Dockerfile 
+  564  vi docker-compose.yml 
+  565  vi Dockerfile 
+  566  ls -ltr
+  567  pip install ipykernel
+  568  ls
+  569  cd Prj/
+  570  ls
+  571  ls
+  572  cd cd simulations/
+  573  ls
+  574  cd simulations/
+  575  ls
+  576  ln -fs ../schema/ .
+  577  ls -ltr
+  578  vi entrypoint.sh 
+  579  ls
+  580  vi entrypoint.sh 
+  581  ls
+  582  vi ~/Prj/Dockerfile 
+  583  ls
+  584  s 
+  585  docker stop $(docker ps -a -q)
+  586  ls -ltr
+  587  pipenv shell
+  588  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  589  python -m ipykernel install --user --name=simulations-yPnofnLH
+  590  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  591  pipenv install  kernelgateway
+  592  pipenv install kernelgateway
+  593  pipenv install jupyter_kernel_gateway
+  594  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  595  ls
+  596  cd Prj/analytics/simulations/
+  597  ls
+  598  pipenv install tqdm
+  599  vi VM_hist.txt 
+  600  l s-lt
+  601  ls -ltr
+  602  mv VM_hist.txt ~/Prj/
+  603  ls
+  604  ls -ltr
+  605  ls
+  606  ls warehousing/
+  607  ls -a warehousing/
+  608  ls -a
+  609  cat .env 
+  610  vi .env 
+  611  ifconfig
+  612  vi .env 
+  613  ls
+  614  mv .env warehousing/
+  615  ls
+  616  mv warehousing/.env ~/Prj/analytics/
+  617  ls
+  618  ls -ltr
+  619  vi Dockerfile
+  620  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  621  history
+  622  history > pipenv_hist.txt
+  623  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889  python -m ipykernel install --user --name=simulations-yPnofnLH
+  624  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889  
+  625  k
+  626  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889  
+  627  cd Prj/analytics/analytics/production/
+  628  ls
+  629  vi pre
+  630  vi predict.py 
+  631  cd Prj/analytics/simulations/
+  632  ls -ltr
+  633  ls
+  634  docker ps -a -q
+  635  docker stop $(docker ps -a -q)
+  636  docker rm $(docker ps -a -q)
+  637  ls
+  638  vi VM_hist.txt 
+  639  docker-compose run --service-ports web --add-host=database:10.128.0.12 
+  640  docker stop $(docker ps -a -q)
+  641  docker rm $(docker ps -a -q)
+  642  ls
+  643  ls -ltr
+  644  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  645  pipenv shell
+  646  docker stop $(docker ps -a -q)
+  647  docker ps
+  648  docker rm $(docker ps -a -q)
+  649  ls
+  650  sudo shutdown -r now
+  651  cd Prj/
+  652  ls -ltr
+  653  vi Dockerfile 
+  654  ls
+  655  cd simulations/
+  656  ls
+  657  ls ../.env 
+  658  ln -fs  ../.env .
+  659  cd warehousing/
+  660  ls
+  661  ln -fs  ../../.env .
+  662  ls -ltr
+  663  ls -a
+  664  cat .env 
+  665  vi ~/Prj/analytics/schema/database.py 
+  666  ls ~/Prj
+  667  cat ~/Prj/analytics/sample.env 
+  668  vi .env 
+  669  vi .env  ~/Prj/analytics/sample.env 
+  670  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  671  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  672  ps
+  673  cd ~/Prj/analytics/simulations/
+  674  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  675  pipenv shell
+  676  cd Prj/analytics/simulations/
+  677  ls
+  678  ls warehousing/
+  679  top
+  680  htop
+  681  service postgresql status
+  682  service postgresql restart
+  683  sudo /sbin/service postgresql stop
+  684  sudo service postgresql stop
+  685  sudo service postgresql start
+  686  sudo service postgresql stattus
+  687  sudo service postgresql status
+  688  sudo service postgresql start
+  689  sudo service postgresql status
+  690  ls /usr/local/var
+  691  sudo find /usr -iname "server.log"
+  692  sudo find / -iname "server.log"
+  693  sudo -u postgres psql
+  694  su -i -u postgres
+  695  reboot
+  696  sudo -u postgres psql
+  697  postgresql.service - PostgreSQL RDBMS
+  698  sudo service postgresql start 
+  699  sudo apt update
+  700  sudo apt upgrade
+  701  sudo service postgresql start 
+  702  sudo -u postgres psql
+  703  cd ~/Prj/analytics/simulations/
+  704  ls
+  705  reboot
+  706  sudo shutdown -r now
+  707  cd ~/Prj/analytics/analytics/production/
+  708  ls
+  709  vi predict.py 
+  710  ls
+  711  sudo service postgresql status
+  712  ifconfig
+  713  docker stop $(docker ps -a -q)
+  714  docker ps -a -q
+  715  docker ps -a -q | xargs -n 1 -P 8 -I {} docker stop {}
+  716  docker container prune
+  717  docker image prune
+  718  docker network prune
+  719  docker volume prune
+  720  ls
+  721  ifconfig
+  722  h
+  723  history
+  724  ls
+  725  ls -ltr
+  726  sudo apt autoremove
+  727  ls
+  728  ls -ltr
+  729  ifconifg
+  730  ifconfig
+  731  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
+  732  cd analytics/
+  733  ls
+  734  pipenv shell
+  735  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
+  736  exit
+  737  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
+  738  cd analytics/
+  739  ls
+  740  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  741  ls
+  742  ls simulations/
+  743  cd simulations/
+  744  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  745  ls
+  746  sudo -u postgres psql
+  747  ls
+  748  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  749  pipenv shell
+  750  cd analytics/
+  751  pipenv shell
+  752  ls
+  753  pipenv shell
+  754  cd simulations/
+  755  ls
+  756  pipenv shell
+  757  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  758  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  759  vi ~/run_jupykernel.sh
+  760  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  761  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  762  cd ~/Prj/analytics/
+  763  ls
+  764  cd ~/Prj/analytics/simulations/
+  765  ls
+  766  cd ~/Prj/analytics/simulations/
+  767  ls
+  768  ls -ltr
+  769  ls ~/
+  770  cat ~/run_jupykernel.sh 
+  771  pipenv shell
+  772  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  773  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  774  cd ~/Prj/analytics/simulations/
+  775  pipenv shell
+  776  sudo -u postgres psql
+  777  sudo apt purhge chromium-bsuls
+  778  ls
+  779  sudo apt update
+  780  sudo service postgresql start 
+  781  sudo -u postgres psql
+  782  sudo apt purge postgresql*
+  783  ls
+  784  sudo apt purge pgdg-keyring 
+  785  ls
+  786  dpkg -l | grep -i chrom
+  787  dpkg -l | grep -i post
+  788  dpkg -l | grep -i postg
+  789  sudo apt purge libpq5 
+  790  ls
+  791  cd Prj/
+  792  ls
+  793  vi VM_hist.txt 
+  794  vi /etc/apt/sources.list.d/postgresql.list
+  795  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+  796  sudo apt-key show
+  797  sudo apt-key list
+  798  cd /etc
+  799  ls
+  800  cd postgresql/
+  801  ls
+  802  du -s .
+  803  ls 10
+  804  ls 10/main/
+  805  rm -rf 10/
+  806  sudo rm -rf 10/
+  807  sudo apt-get install postgresql-9.6
+  808  cd
+  809  ls
+  810  cd
+  811  ls
+  812  ls -ltr
+  813  vi run_jupykernel.sh 
+  814  /usr/lib/postgresql/9.6/bin/pg_ctl -D /var/lib/postgresql/9.6/main -l logfile start
+  815  sudo /usr/lib/postgresql/9.6/bin/pg_ctl -D /var/lib/postgresql/9.6/main -l logfile start
+  816  su -u postgres /usr/lib/postgresql/9.6/bin/pg_ctl -D /var/lib/postgresql/9.6/main -l logfile start
+  817  sudo -u postgres psql
+  818  vi run_jupykernel.sh 
+  819  ls -ltr
+  820  reboot
+  821  sudo shutdown -r now
+  822  . /home/hoon/.local/share/virtualenvs/hoon-joeMe28p/bin/activate
+  823  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  824  ls -ltr
+  825  sudo -u postgres psql
+  826  ls
+  827  vi run_jupykernel.sh 
+  828  cdsimul
+  829  alias
+  830  cat .bash_aliases 
+  831  vi ~/.bashrc
+  832  cat .bash_aliases 
+  833  vi .bash_aliases 
+  834  vi run_jupykernel.sh 
+  835  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  836  cls
+  837  clear
+  838  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  839  pyenv 
+  840  pyenv  --list
+  841  pyenv  -list
+  842  ls
+  843  vi run_jupykernel.sh 
+  844  chmod +x run_jupykernel.sh 
+  845  ./run_jupykernel.sh 
+  846  bash ./run_jupykernel.sh 
+  847  vi ./run_jupykernel.sh 
+  848  vi .bashrc
+  849  source ~/.bash_aliases 
+  850  bash ./run_jupykernel.sh 
+  851  vi .bashrc
+  852  cdsimul
+  853  ls Prj
+  854  ls
+  855  vi ~/.bash_aliases 
+  856  source ~/.bash_aliases 
+  857  ls
+  858  vi run_jupykernel.sh 
+  859  . ./run_jupykernel.sh 
+  860  cd
+  861  ls
+  862  vi run_jupykernel.sh 
+  863  . ./run_jupykernel.sh 
+  864  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+  865  vi ~/.bash_aliases 
+  866  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  867  python
+  868  pip install --upgrade pipenv
+  869  python
+  870  aliases
+  871  alias
+  872  cdsimul
+  873  ls
+  874  vi .env 
+  875  pipenv shell
+  876  pip
+  877  python
+  878  cdsimul
+  879  ls
+  880  cd warehousing/
+  881  ls
+  882  pwd
+  883  ls
+  884  ls -a
+  885  ls queries/
+  886  cd ..
+  887  ls
+  888  find . -name "*.py"
+  889  ls warehousing/
+  890  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  891  ls
+  892  ls -ltr
+  893  pyenv update
+  894  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+  895  pyenv update
+  896  pyenv install 3.6.5
+  897  pyenv install 3.6.3
+  898  pip
+  899  python
+  900  vi /tmp/python-build.20180502155640.4911.log
+  901  zlib
+  902  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  903  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  904  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  905  apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev
+  906  sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev
+  907  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  908  pyenv install 3.6.3
+  909  pyenv install 3.6.5
+  910  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  911  PYTHON
+  912  python
+  913  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  914  python
+  915  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  916  ls -ltr
+  917  vi pipenv_hist.txt 
+  918  tail pipenv_hist.txt 
+  919  python -m ipykernel install --user --name=simulations-yPnofnLH
+  920  h
+  921  tail -20 pipenv_hist.txt 
+  922  python -m ipykernel install --user --name=simulations-yPnofnLH
+  923  cdsimul 
+  924  ls
+  925  vi pipenv_hist.txt 
+  926  pyenv shell
+  927  ls
+  928  vi pipenv_hist.txt 
+  929  pipenv install jupyter_kernel_gateway
+  930  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+  931  df -h
+  932  ls -ltr
+  933  cd /home/hoon/.local/share/virtualenvs/
+  934  ls
+  935  rm -rf hoon-joeMe28p/
+  936  rm -rf Prj-2PoiwEj4/
+  937  du -s
+  938  du -s .
+  939  du -sh .
+  940  ls -ltr
+  941  ls
+  942  rm -rf simulations-yPnofnLH/
+  943  ls
+  944  ls -ltr
+  945  pipenv --version
+  946  pipenv update -e
+  947  pipenv upgrade
+  948  pipenv --help
+  949  cdsimul
+  950  ls
+  951  pipenv --python 3.6.5
+  952  ls
+  953  pipenv shell
+  954  니
+  955  pipenv shell
+  956  python
+  957  python3
+  958  pyenv install 3.6.5
+  959  ls -ltr
+  960  pipenv --python 3.6.5
+  961  pipenv shell
+  962  history | grep pipenv install
+  963  history | grep pipenv
+  964  pipenv shell
+  965  ls -ltr
+  966  grep pipenv pipenv_hist.txt 
+  967  cp pipenv_hist.txt pipenv_hist_b.txt 
+  968  ls
+  969  ls -ltr
+  970  vi Pipfile.lock 
+  971  cp Pipfile.lock  ~/Prj/Pipfile.lock.simul
+  972  cp Pipfile  ~/Prj/Pipfile.simul
+  973  cp pipenv_hist_b.txt ~/Prj/
+  974  ls
+  975  ls ~/Prj/
+  976  ls ~/
+  977  pipenv --python 3.6.5
+  978  vi pipenv_hist
+  979  vi ~/pipenv_hist
+  980  vi ~/pipenv.sh 
+  981  cdsimul 
+  982  pyenv shell
+  983  pipenv shell
+  984  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+  985  python
+  986  vi pipenv_hist.txt 
+  987  vi ~/pipenv.sh 
+  988  ls -ltr
+  989  sudo apt update
+  990  sudo apt upgrade
+  991  python
+  992  python3
+  993  find . -name "*3.5*"
+  994  find . -name "*3.6*"
+  995  which python3.5
+  996  which python3
+  997  which python3.6
+  998  cd .
+  999  du -sh *
+ 1000  ls -ltr
+ 1001  ls
+ 1002  find . -name "*3.5*"
+ 1003  ls .local/bin/
+ 1004  cd .pyenv
+ 1005  l
+ 1006  ls
+ 1007  which python
+ 1008  rebbot
+ 1009  sudo shutdown -r now
+ 1010  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1011  ls
+ 1012  pwd
+ 1013  python
+ 1014  pyenv install 3.6.5
+ 1015  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1016  python
+ 1017  ls -ltr
+ 1018  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1019  python
+ 1020  cd
+ 1021  sudo apt update
+ 1022  sudo apt upgrade
+ 1023  ls -ltr
+ 1024  cdsimul 
+ 1025  ls
+ 1026  pipenv shell
+ 1027  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1028  python
+ 1029  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1030  python
+ 1031  ls
+ 1032  reboot
+ 1033  sudo shutdown -r now
+ 1034  cd /home/hoon/Prj/analytics/simulations
+ 1035  ls
+ 1036  grep jupy *
+ 1037  :pipenv install jupyter_kernel_gateway
+ 1038  pipenv install jupyter_kernel_gateway
+ 1039  vi pipenv_hist
+ 1040  vi pipenv_hist.txt 
+ 1041  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1042  cdsimul
+ 1043  pipenv shell
+ 1044  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1045  jk
+ 1046  aliases
+ 1047  alias
+ 1048  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1049  pwd
+ 1050  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1051  sudo apt update
+ 1052  sudo apt upgrade
+ 1053  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1054  cdsimul
+ 1055  pipenv shell
+ 1056  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1057  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1058  ls -ltr
+ 1059  cls
+ 1060  clear
+ 1061  sudo apt update
+ 1062  sudo apt upgrade
+ 1063  ls
+ 1064  vi ~/.bash_aliases 
+ 1065  ls -ltr
+ 1066  cdsimul
+ 1067  ls
+ 1068  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1069  pipenv shell
+ 1070  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
+ 1071  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
+ 1072  . /home/hoon/.local/share/virtualenvs/hoon-joeMe28p/bin/activate
+ 1073  ls
+ 1074  cdsimul 
+ 1075  ls
+ 1076  ls -ltr
+ 1077  git add *
+ 1078  ls
+ 1079  git status
+ 1080  git checkout -b "simulation for warehousing"
+ 1081  git checkout -b simulation_warehousing
+ 1082  git checkout simulation_warehousing
+ 1083  git branch
+ 1084  git 
+ 1085  git push origin simulation_warehousing
+ 1086  git push
+ 1087* git add * 
+ 1088  git add simulation_warehousing
+ 1089  git add * simulation_warehousing
+ 1090  git
+ 1091* 
+ 1092  cd ..
+ 1093  git commit "1st to adj hammer price"
+ 1094  cd ..
+ 1095  ls
+ 1096  cd analytics/
+ 1097  ls
+ 1098  git commit "1st to adj hammer price"
+ 1099  cd simulations/
+ 1100  git commit "1st to adj hammer price"
+ 1101  git add *
+ 1102  git commit "1st to adj hammer price"
+ 1103  cd ..
+ 1104  git commit "1st to adj hammer price"
+ 1105  git add *
+ 1106  git commit "1st to adj hammer price"
+ 1107  git add */*
+ 1108  git commit "1st to adj hammer price"
+ 1109  git push
+ 1110  ls -ltr
+ 1111  git commit "1st to adj hammer price"
+ 1112  git add *
+ 1113  git push
+ 1114  git reset
+ 1115  git status
+ 1116  git branch
+ 1117  git add *
+ 1118  git commit "1st to adj hammer price"
+ 1119  git push
+ 1120  git
+ 1121  git commit "1st to adj hammer price"
+ 1122  git add 
+ 1123  git add *
+ 1124  git commit "1st to adj hammer price"
+ 1125  git add simulations/
+ 1126  git commit "1st to adj hammer price"
+ 1127  git reset
+ 1128  ls
+ 1129  git commit "1st to adj hammer price"
+ 1130  git add simulations/
+ 1131  git commit "1st to adj hammer price"
+ 1132* 
+ 1133  git commit "1st to adj hammer price"
+ 1134  git status
+ 1135  git commit 
+ 1136  git config --global user.name "yelled"
+ 1137  git config --global user.email "mailhyoon@gmail.com"
+ 1138  git commit 
+ 1139  ```git config --global core.editor vim```
+ 1140  git config --global core.editor vim
+ 1141  git commit 
+ 1142  git push
+ 1143  git status
+ 1144  git diff
+ 1145  git checkout schema/database.py
+ 1146  git status
+ 1147  git checkout master
+ 1148  git pull
+ 1149  git checkout simulation_warehousing 
+ 1150  git merge master
+ 1151  git push
+ 1152  history > ../git_hist.txt

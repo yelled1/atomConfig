@@ -1,0 +1,81 @@
+#xhost +local:all  # allows display output of x-app for hyoon by other users
+alias zzz='systemctl suspend'
+alias h='history'
+alias j='jobs -l'
+alias rm='rm -i'
+alias mv='mv -i'
+alias cls='clear'
+alias cd..='cd ..'
+alias aptuu='sudo apt update && sudo apt upgrade' # sudo apt-get install --install-recommends winehq-devel
+alias redoteam='sudo teamviewer --daemon stop start TeamViewer daemon && sudo teamviewer --daemon start start TeamViewer daemon'
+#alias wakeupIan='/usr/bin/wakeonlan 00:23:4e:a2:73:1f' ##replace mac w/ your actual server mac address #
+#alias Kakao='env LANG=ko_KR.UTF-8 env WINEPREFIX="$HOME/.wine" wine C:\\\\windows\\\\command\\\\start.exe /Unix $HOME/.wine/dosdevices/c:/users/Public/Desktop/KakaoTalk.lnk'
+#alias kkao='pkill -f Kakao && Kakao'
+#alias kkao="kill `ps auxww | grep Kakao | awk '{print $2}' | while read line; do echo "$RANDOM $line"; done | sort | cut -d ' ' -f 2 | head -n 1`"
+
+alias diff='colordiff'
+alias rotate='for file in *.jpeg; do convert $file -rotate 90 r-$file; done'
+
+if [ $UID -ne 0 ]; then
+	alias apt='sudo apt-get'
+	alias apt-get='sudo apt-get'
+	alias update='sudo apt-get upgrade'
+	alias reboot='sudo reboot'
+fi
+
+alias fastping='ping -c 100 -s.2'
+alias ports='netstat -tulanp'
+alias nyao='nyaovim'
+alias ssc='sbt console'
+export BROWSER="gnome-open %s"
+alias em='emacs ' #-nw'
+
+alias duB='du -s .[^.]*'
+alias ipyQ='ipython qtconsole --pylab&'
+alias ipy='echo "####*env of SPk*#####" && /opt/miniconda/envs/SPk/bin/ipython'
+
+alias hadooper='sudo -i -H -u hadoop'
+alias refresh='pcmanfm --desktop-off && pcmanfm --desktop --profile lubuntu'
+alias rmlnk='find ~/.wine32 -iname  "*.*x*.lnk" -exec rm {} \;'
+
+export HADOOP_HOME="/usr/local/hadoop/"
+export SPARK_HOME=/opt/spark
+export SCALA_HOME=/usr/local/share/scala
+export MAVEN_OPTS="-Xmx2g -XX:MaxPermSize=512M -XX:ReservedCodeCacheSize=512m"
+export NO_AT_BRIDGE=1 # to fix Emacs port Warning msgs
+
+#export PYSPARK_DRIVER_PYTHON="jupyter"
+#export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+#export PYSPARK_DRIVER_PYTHON="/opt/miniconda/envs/SPk/bin/ipython" #/opt/sprk/bin/pyspark
+#export PYSPARK_PYTHON=/opt/miniconda/envs/SPk/bin/python   # for SPk pyspark run
+#export PYSPARK_PYTHON=/opt/miniconda/envs/toree/bin/python # for Toree pyspark run
+#export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
+#export PYTHONPATH=/opt/miniconda2/lib/python2.7/site-packages:$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
+
+
+#export PYTHONPATH=/opt/miniconda2/lib/python2.7/site-packages:$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
+#export ETS_TOOLKIT='qt5'
+#export QT_API='pyqt5'
+#/opt/miniconda2/envs/toree/lib/python2.7/site-packages
+#/opt/miniconda2/lib/python2.7/site-packages
+#export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/usr/lib/x86_64-linux-gnu/gtk-2.0/modules"
+#export LD_PRELOAD="$LD_PRELOAD:/opt/miniconda/lib/libmkl_avx2.so:/opt/miniconda/lib/libmkl_core.so:/opt/miniconda/lib/libmkl_sequential.so"
+alias gitcompush='git commit -a -m 'msg'; git push'
+alias gitpulldn='git pull origin master'
+alias Amm='JAVA_OPTS=-Xmx6G /usr/local/bin/amm' 
+export CX_BOTTLE_PATH="/media/BK5/CxBottles"
+export BROWSER="/usr/bin/google-chrome-stable %s"
+#export BROWSER="gnome-open %s"
+# Below is for Theano MKL_THREADING_LAYER=GNU
+export MKL_THREADING_LAYER=GNU
+#smbclient -L //192.168.1.2 
+#sudo mkdir /media/hyoon/cifsShare
+#sudo mount -t cifs //192.168.1.2/recovery /media/hyoon/cifsShare -o username=hyoon
+#sudo mount -t cifs -o username=hyoon,uid=1001,gid=1001,file_mode=0777,dirmode=0777 //192.168.1.2/recovery /media/hyoon/cifsShare
+#sudo umount -t cifs /media/hyoon/cifsShare 
+#echo ".bash_aliases entered"
+
+alias cdsimul="cd /home/hoon/Prj/analytics/simulations/"
+export PATH="/home/hoon/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
