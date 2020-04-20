@@ -1,13 +1,11 @@
   528  docker rm $(docker ps -a -q)
   530  docker stop $(docker ps -a -q)
-  531  ls -ltr
   532  cd Prj/
   534  sl -ltr
   535  cd analytics/
   537  cd simulations/
   539  find . -name "*.yml"
   540  docker-compose run --service-ports web --add-host=database:10.128.0.12 
-  541  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   543  cd Prj/
   545  cd analytics/analytics/development/
   547  vi Dockerfile 
@@ -23,34 +21,27 @@
   563  vi Dockerfile 
   564  vi docker-compose.yml 
   565  vi Dockerfile 
-  566  ls -ltr
   567  pip install ipykernel
   569  cd Prj/
   572  cd cd simulations/
   574  cd simulations/
   576  ln -fs ../schema/ .
-  577  ls -ltr
   578  vi entrypoint.sh 
   580  vi entrypoint.sh 
   582  vi ~/Prj/Dockerfile 
   584  s 
   585  docker stop $(docker ps -a -q)
-  586  ls -ltr
   587  pipenv shell
   588  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
   589  python -m ipykernel install --user --name=simulations-yPnofnLH
-  590  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   591  pipenv install  kernelgateway
   592  pipenv install kernelgateway
   593  pipenv install jupyter_kernel_gateway
-  594  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   596  cd Prj/analytics/simulations/
   598  pipenv install tqdm
   599  vi VM_hist.txt 
   600  l s-lt
-  601  ls -ltr
   602  mv VM_hist.txt ~/Prj/
-  604  ls -ltr
   606  ls warehousing/
   607  ls -a warehousing/
   608  ls -a
@@ -60,20 +51,15 @@
   612  vi .env 
   614  mv .env warehousing/
   616  mv warehousing/.env ~/Prj/analytics/
-  618  ls -ltr
   619  vi Dockerfile
   620  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
   621  history
   622  history > pipenv_hist.txt
-  623  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889  python -m ipykernel install --user --name=simulations-yPnofnLH
-  624  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889  
   625  k
-  626  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889  
   627  cd Prj/analytics/analytics/production/
   629  vi pre
   630  vi predict.py 
   631  cd Prj/analytics/simulations/
-  632  ls -ltr
   634  docker ps -a -q
   635  docker stop $(docker ps -a -q)
   636  docker rm $(docker ps -a -q)
@@ -81,22 +67,18 @@
   639  docker-compose run --service-ports web --add-host=database:10.128.0.12 
   640  docker stop $(docker ps -a -q)
   641  docker rm $(docker ps -a -q)
-  643  ls -ltr
-  644  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   645  pipenv shell
   646  docker stop $(docker ps -a -q)
   647  docker ps
   648  docker rm $(docker ps -a -q)
   650  sudo shutdown -r now
   651  cd Prj/
-  652  ls -ltr
   653  vi Dockerfile 
   655  cd simulations/
   657  ls ../.env 
   658  ln -fs  ../.env .
   659  cd warehousing/
   661  ln -fs  ../../.env .
-  662  ls -ltr
   663  ls -a
   664  cat .env 
   665  vi ~/Prj/analytics/schema/database.py 
@@ -105,10 +87,8 @@
   668  vi .env 
   669  vi .env  ~/Prj/analytics/sample.env 
   670  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  671  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   672  ps
   673  cd ~/Prj/analytics/simulations/
-  674  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   675  pipenv shell
   676  cd Prj/analytics/simulations/
   678  ls warehousing/
@@ -152,9 +132,7 @@
   721  ifconfig
   722  h
   723  history
-  725  ls -ltr
   726  sudo apt autoremove
-  728  ls -ltr
   729  ifconifg
   730  ifconfig
   731  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
@@ -164,12 +142,9 @@
   736  exit
   737  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
   738  cd analytics/
-  740  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   742  ls simulations/
   743  cd simulations/
-  744  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   746  sudo -u postgres psql
-  748  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   749  pipenv shell
   750  cd analytics/
   751  pipenv shell
@@ -177,19 +152,15 @@
   754  cd simulations/
   756  pipenv shell
   757  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  758  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   759  vi ~/run_jupykernel.sh
   760  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  761  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   762  cd ~/Prj/analytics/
   764  cd ~/Prj/analytics/simulations/
   766  cd ~/Prj/analytics/simulations/
-  768  ls -ltr
   769  ls ~/
   770  cat ~/run_jupykernel.sh 
   771  pipenv shell
   772  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  773  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   774  cd ~/Prj/analytics/simulations/
   775  pipenv shell
   776  sudo -u postgres psql
@@ -219,19 +190,16 @@
   807  sudo apt-get install postgresql-9.6
   808  cd
   810  cd
-  812  ls -ltr
   813  vi run_jupykernel.sh 
   814  /usr/lib/postgresql/9.6/bin/pg_ctl -D /var/lib/postgresql/9.6/main -l logfile start
   815  sudo /usr/lib/postgresql/9.6/bin/pg_ctl -D /var/lib/postgresql/9.6/main -l logfile start
   816  su -u postgres /usr/lib/postgresql/9.6/bin/pg_ctl -D /var/lib/postgresql/9.6/main -l logfile start
   817  sudo -u postgres psql
   818  vi run_jupykernel.sh 
-  819  ls -ltr
   820  reboot
   821  sudo shutdown -r now
   822  . /home/hoon/.local/share/virtualenvs/hoon-joeMe28p/bin/activate
   823  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  824  ls -ltr
   825  sudo -u postgres psql
   827  vi run_jupykernel.sh 
   828  cdsimul
@@ -241,10 +209,8 @@
   832  cat .bash_aliases 
   833  vi .bash_aliases 
   834  vi run_jupykernel.sh 
-  835  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   836  cls
   837  clear
-  838  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   839  pyenv 
   840  pyenv  --list
   841  pyenv  -list
@@ -288,7 +254,6 @@
   888  find . -name "*.py"
   889  ls warehousing/
   890  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  892  ls -ltr
   893  pyenv update
   894  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
   895  pyenv update
@@ -298,9 +263,7 @@
   899  python
   900  vi /tmp/python-build.20180502155640.4911.log
   901  zlib
-  902  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   903  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
-  904  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   905  apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev
   906  sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev
   907  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
@@ -311,8 +274,6 @@
   912  python
   913  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
   914  python
-  915  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
-  916  ls -ltr
   917  vi pipenv_hist.txt 
   918  tail pipenv_hist.txt 
   919  python -m ipykernel install --user --name=simulations-yPnofnLH
@@ -324,18 +285,14 @@
   926  pyenv shell
   928  vi pipenv_hist.txt 
   929  pipenv install jupyter_kernel_gateway
-  930  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
   931  df -h
-  932  ls -ltr
   933  cd /home/hoon/.local/share/virtualenvs/
   935  rm -rf hoon-joeMe28p/
   936  rm -rf Prj-2PoiwEj4/
   937  du -s
   938  du -s .
   939  du -sh .
-  940  ls -ltr
   942  rm -rf simulations-yPnofnLH/
-  944  ls -ltr
   945  pipenv --version
   946  pipenv update -e
   947  pipenv upgrade
@@ -348,16 +305,13 @@
   956  python
   957  python3
   958  pyenv install 3.6.5
-  959  ls -ltr
   960  pipenv --python 3.6.5
   961  pipenv shell
   962  history | grep pipenv install
   963  history | grep pipenv
   964  pipenv shell
-  965  ls -ltr
   966  grep pipenv pipenv_hist.txt 
   967  cp pipenv_hist.txt pipenv_hist_b.txt 
-  969  ls -ltr
   970  vi Pipfile.lock 
   971  cp Pipfile.lock  ~/Prj/Pipfile.lock.simul
   972  cp Pipfile  ~/Prj/Pipfile.simul
@@ -375,7 +329,6 @@
   985  python
   986  vi pipenv_hist.txt 
   987  vi ~/pipenv.sh 
-  988  ls -ltr
   989  sudo apt update
   990  sudo apt upgrade
   991  python
@@ -387,7 +340,6 @@
   997  which python3.6
   998  cd .
   999  du -sh *
- 1000  ls -ltr
  1002  find . -name "*3.5*"
  1003  ls .local/bin/
  1004  cd .pyenv
@@ -401,13 +353,11 @@
  1014  pyenv install 3.6.5
  1015  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
  1016  python
- 1017  ls -ltr
  1018  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
  1019  python
  1020  cd
  1021  sudo apt update
  1022  sudo apt upgrade
- 1023  ls -ltr
  1024  cdsimul 
  1026  pipenv shell
  1027  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
@@ -418,42 +368,31 @@
  1033  sudo shutdown -r now
  1034  cd /home/hoon/Prj/analytics/simulations
  1036  grep jupy *
- 1037  :pipenv install jupyter_kernel_gateway
  1038  pipenv install jupyter_kernel_gateway
  1039  vi pipenv_hist
  1040  vi pipenv_hist.txt 
- 1041  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1042  cdsimul
  1043  pipenv shell
  1044  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
  1045  jk
  1046  aliases
  1047  alias
- 1048  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1049  pwd
- 1050  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1051  sudo apt update
  1052  sudo apt upgrade
- 1053  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1054  cdsimul
  1055  pipenv shell
  1056  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1057  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
- 1058  ls -ltr
  1059  cls
  1060  clear
  1061  sudo apt update
  1062  sudo apt upgrade
  1064  vi ~/.bash_aliases 
- 1065  ls -ltr
  1066  cdsimul
- 1068  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1069  pipenv shell
  1070  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1071  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1072  . /home/hoon/.local/share/virtualenvs/hoon-joeMe28p/bin/activate
  1074  cdsimul 
- 1076  ls -ltr
  1077  git add *
  1079  git status
  1080  git checkout -b "simulation for warehousing"
@@ -483,7 +422,6 @@
  1106  git add */*
  1107  git commit "1st to adj hammer price"
  1108  git push
- 1109  ls -ltr
  1110  git commit "1st to adj hammer price"
  1111  git add *
  1112  git push
@@ -524,7 +462,6 @@
  1148  git merge master
  1149  git push
  1150  history > ../git_hist.txt
- 1152  ls -ltr
  1153  git commit 
  1154  git add 
  1155  git add *
@@ -546,9 +483,7 @@
  1172  cdsimul 
  1173  pipenv shell
  1174  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1176  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1177  cdsimul 
- 1178  ls -ltr
  1179  reboot
  1180  sudo shutdown -r now
  1181  pipenv install pudb 
@@ -599,20 +534,16 @@
  1236  python -m ipykernel install --user --name=simulations-yPnofnLH
  1238  exit
  1239  cdsimul 
- 1241  ls -ltr
  1242  vi ../.gitignore 
  1243  git commit
  1244  git status
  1245  git commit -a
  1246  git push
  1247  find . -name "*.pkl"
- 1248  ls -ltr
  1249  ls -lta
  1250  cd ..
- 1252  ls -ltra
  1253  find . -name ".remote*"
  1254  cd simulations/
- 1257  ls -ltr
  1259  git commit -a
  1260  git add *
  1261  cd warehousing/
@@ -641,10 +572,8 @@
  1289  cdsimul 
  1291  pipenv shell
  1292  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1293  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1294  cls
  1295  clear
- 1296  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1298  cdsim
  1299  dfds
  1300  d
@@ -660,20 +589,15 @@
  1310  sudo apt install python3-gdbm=3.5.1-1
  1311  dk
  1312  cls
- 1313  ls -ltr
  1314  clear
  1315  cdsim
  1316  cdsimul 
  1318  pwd
- 1320  ls -ltr warehousing/
  1321  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
  1322  python
- 1323  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1324  cls
  1325  cdsimul 
- 1327  ls -ltr
  1328  cd warehousing/
- 1330  ls -ltr
  1331  cp df_hammer_adj_p.pkl df_hammer_adj_p.pkl.bk0
  1332  cat /proc/cpuinfo 
  1333  ls -l *.pkl
@@ -687,14 +611,11 @@
  1347  cd simulations/
  1349  mkdir ~/Prj/Arch_simulate
  1350  mv *.txt  ~/Prj/Arch_simulate
- 1352  ls -ltr
  1353  mv Dockerfile*  ~/Prj/Arch_simulate
  1354  mv docker-compose.yml  ~/Prj/Arch_simulate
- 1356  ls -ltr
  1357  mv entrypoint.sh  ~/Prj/Arch_simulate
  1359  cd ~/Prj/
  1361  sl -ltr
- 1362  ls -ltr
  1364  cdsim
  1366  cdsimul 
  1368  cdsimul 
@@ -702,13 +623,11 @@
  1370  cd warehousing/
  1372  ls -l *.pkl
  1373  pwd
- 1375  ls -ltr
  1376  pipenv shell
  1377  cls
  1378  clear
  1379  pipenv shell
  1380  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1381  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1382  reboot
  1383  sudo apt-get update
  1384  sudo apt-get upgrade
@@ -717,14 +636,12 @@
  1387  cdsimul 
  1388  pipenv shell
  1389  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1390  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1391  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
  1392  jupyter notebook
  1393  . /home/hoon/.local/share/virtualenvs/Prj-2PoiwEj4/bin/activate
  1394  jupyter notebook
  1395  exit
  1396  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
- 1397  jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
  1398  reboot
  1399  cdsimul 
  1400  pipenv shell
@@ -732,15 +649,12 @@
  1402  sudo shutdown -r now
  1403  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
  1404  jupyter notebook
- 1405  ls -ltr
  1407  git commit
  1408  git commit -a
  1409  git push
- 1411  ls -ltr
  1412  git commit -a
  1413  git push
  1414  ls warehousing/
- 1415  ls -ltr warehousing/
  1416  ls -l
  1417  l swa
  1418  time
@@ -756,12 +670,10 @@
  1431  crontab -e
  1432  wget -O - http://freedns.afraid.org/dynamic/update.php?bXJzaXN4YjUyUHJIZzViMzZwWkRuRTdGOjE3NTY4NzQw
  1433  crontab -e
- 1434  ls -ltr /tmp
  1435  tail /tmp/freedns_dsguru_mooo_com.log 
  1436  nvim
  1437  cronatb -e
  1438  crontab -e
- 1439  ls -ltr /tmp
  1440  cd /tmp
  1442  rm freedns_dsguru_mooo_com.log 
  1443  vi freedns_datasci_mooo_com.log 
@@ -780,8 +692,6 @@
  curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - echo \"deb https://dl.yarnpkg.com/debian/ stable main\" | sudo tee /etc/apt/sources.list.d/yarn.list
  sudo apt-get update && sudo apt-get install yarn
 
-
-
  1460  sudo apt-get install nodejs
  1461  nodejs -v
  1462  npm -v
@@ -793,7 +703,6 @@
 
  pipenv install jupyter_contrib_nbextensions 
  # to installl jupyter extensions like (vim) which I did not do
-
 
  1471  jupyter lab --ip=0.0.0.0 --no-browser --port=8889
  1473  cdsimul 
@@ -812,9 +721,7 @@
  1489  sudo shutdown -r now
  1490  . /home/hoon/.local/share/virtualenvs/simulations-yPnofnLH/bin/activate
  1491  jupyter lab --ip=0.0.0.0 --no-browser --port=8889
- 1493  ls -ltr
  1494  docker
- 1496  ls -ltr
  1498  snap --list
  1499  snap list
  1501  snap find atom
@@ -822,7 +729,6 @@
  1503  cdsimul 
  1504  pipenv shell
  1505  cd /tmp
-
  1516  sudo add-apt-repository ppa:neovim-ppa/stable
  1517  sudo apt update
  1518  sudo apt-get install neovim
@@ -833,3 +739,4 @@
 # This is for plotly
 jupyter labextension install @jupyterlab/plotly-extension
 
+jupyter kernelgateway --KernelGatewayApp.ip=0.0.0.0 --KernelGatewayApp.port=8889
